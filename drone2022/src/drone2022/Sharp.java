@@ -17,12 +17,20 @@ public class Sharp {
 		 num1(num);
          System.out.println("starting now 2"+num);
          numbers();
-         this.numbers=new
+         falseTrue(h);
          
 	}public static  int numbers() {
 		int checker=9;
 		return checker;
-	}public boolean falseTrue(boolean h) {
+	}
+	
+	public static  boolean falseTrue(boolean h) {
+		int numbrs = 90;int utis=numbers();
+		//this.utis=numbrs;
+		Flying num=new Flying();
+		num.nameIt="Razor";
+		num.canfly();
+		
 	    if(h==true) {
 	    	System.out.println("Ystem works: ");
 	    }else {
