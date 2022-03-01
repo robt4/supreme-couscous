@@ -1,4 +1,5 @@
 package drone2022;
+import game.Quickqiz;                   //accessing a diff package
 import java.lang.*;
 import java.util.Objects;
 import java.util.Scanner;
@@ -33,15 +34,17 @@ public int canfly() {
    }
    private int passWord2(int y) {                          //private funtcion to check if password is 1 from sharp class"password can be anythting"
 	   
-	   int x=1;
-	   System.out.println("testing : "+y);
+	   int x=1;                                             //stored password	   
 	   if(x== y) {
-		   return 0;
+		   System.out.println("Succesfully login: ");        // if password is ok access the game in private function
+		   Quickqiz game=new Quickqiz();
+		   game.to2try();
 		   
 	   }else {
+		   System.out.println("wrong password : "+y);
 		   throw new IllegalArgumentException();
 		   
-	   }
+	   }return 0;
 	   
    }
 }

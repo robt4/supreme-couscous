@@ -35,7 +35,7 @@ public class Sharp {
 		num.canfly();                                       //object to access function in flying java
 		System.out.println("Enter your password: ");
 	    passWord();
-	    System.out.println("Succesfully login: ");
+	    
 		return h;
 		
 	}public static int passWord() {
